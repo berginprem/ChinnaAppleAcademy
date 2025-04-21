@@ -1,0 +1,26 @@
+*{
+    text-decoration: none;
+}
+.navbar .navdiv img{
+    max-width: 100px;
+    max-height: 100px;
+}
+.navbar{
+    background: rgb(196, 218, 219);
+    font-family: calibri; 
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.navlist li{
+    list-style: none; 
+    display: inline-block;
+}
+.navlist li a{
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+.navbar .navdiv img{
+    padding: 2px 2px 2px 2px ;
+}
