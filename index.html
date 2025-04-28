@@ -1,23 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chinna Apple</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="icon" href="./final.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./scripts.js" type="module" defer></script>
 </head>
+
 <body>
-    <nav class="navbar">
-        <div class="navdiv">
-            <a href="#"><img src="./final.png" alt="Chinna Apple Academy Logo"></a>
-        </div>
-        <ul class="navlist">
-            <li><a href="#classes">Classes</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-        </ul>
+  <header class="site-header">
+
+    <div class="logo">
+      <a href="#home" data-content="home">
+
+        <span style="font-size: 28px;">சின்ன</span>
+        <br> Apple Academy
+      </a>
+      <a href="#home" data-content="home">
+        <img src="./assets/images/final.png" alt="">
+      </a>
+    </div>
+
+    <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span class="menu-label">Menu</span>
+      <span class="hamburger-icon">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </span>
+    </button>
+
+    <nav class="main-navigation">
+      <ul class="menu-items">
+        <li><a href="#home" data-content="home">Home</a></li>
+        <li><a href="#musicDance" data-content="musicDance">Music & Dance</a></li>
+        <li><a href="#skillDev" data-content="skillDev">Skill Development</a></li>
+        <li><a href="#academics" data-content="academics">Academic Help</a></li>
+        <li><a href="#fitnessWellness" data-content="fitnessWellness">Fitness & Wellness</a></li>
+        <li><a href="#instruments" data-content="instruments">Instruments Sales & service</a></li>
+        <li><a href="#contact" data-content="contact">Contact</a></li>
+      </ul>
     </nav>
-    Hello All!
+
+  </header>
+  <!-- Section to display dynamic content -->
+  <div id="ultimate-container">
+    <main id="dynamic-content" class="content-section">
+      <!-- has details (inquiry) -->
+      <!-- <p>Welcome to our piano classes! Click on the navigation links to learn more.</p> -->
+      <div class="typewriter-container">
+        We teach <span id="typewriter-text"></span>
+      </div>
+      <div class="marquee">
+        <div>
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="132" height="14" fill="none" viewBox="0 0 132 14"
+              style="transform: translate3d(0px, 0em, 0px);">
+              <path fill="#000"
+                d="M.861 1.844a.889.889 0 0 1 1.32-.777l9.282 5.156a.89.89 0 0 1 0 1.554l-9.281 5.156a.889.889 0 0 1-1.32-.777V1.844H.861Zm16 0a.888.888 0 0 1 1.32-.777l9.282 5.156a.89.89 0 0 1 0 1.554l-9.281 5.156a.889.889 0 0 1-1.32-.777l-.001-10.312Zm16 0a.888.888 0 0 1 1.32-.777l9.282 5.156a.89.89 0 0 1 0 1.554l-9.281 5.156a.889.889 0 0 1-1.32-.777l-.001-10.312ZM61.142 1.3c.736 0 1.387.144 1.952.432.565.277.997.677 1.296 1.2.31.512.464 1.115.464 1.808 0 .693-.155 1.301-.464 1.824a3.15 3.15 0 0 1-1.312 1.216c-.555.277-1.2.416-1.936.416H58.23V12.5h-1.392V1.3h4.304ZM58.23 6.916h2.784c.736 0 1.323-.197 1.76-.592.437-.395.656-.923.656-1.584s-.219-1.184-.656-1.568c-.427-.395-1.008-.592-1.744-.592h-2.8v4.336Zm8.108 5.584V1.3h1.392v9.92h5.104v1.28h-6.496Zm7.197 0 4.272-11.2h1.648l4.256 11.2h-1.488l-1.184-3.024h-4.88L74.975 12.5h-1.44Zm3.04-4.288h4.048L78.591 2.82l-2.016 5.392Zm5.694-6.928h1.632l3.296 5.568 3.344-5.568h1.568l-4.224 7.072V12.5h-1.392V8.356l-4.224-7.072Zm19.545.016c.736 0 1.386.144 1.952.432.547.26 1.004.679 1.312 1.2.309.512.464 1.115.464 1.808 0 .779-.219 1.456-.657 2.032-.426.565-1.002.95-1.727 1.152l2.512 4.576h-1.568l-2.32-4.304h-2.864V12.5h-1.393V1.3h4.289Zm-2.896 5.616h2.784c.736 0 1.322-.197 1.76-.592.437-.395.656-.923.656-1.584 0-.65-.219-1.173-.656-1.568-.438-.395-1.019-.592-1.744-.592h-2.8v4.336Zm8.389-5.616h7.136v1.28h-5.744v3.584h4.784v1.28h-4.784v3.776h5.952v1.28h-7.344V1.3Zm8.906 0h7.136v1.28h-5.744v3.584h4.784v1.28h-4.784v3.776h5.952v1.28h-7.344V1.3Zm8.906 11.2V1.3h1.392v9.92h5.104v1.28h-6.496Z">
+              </path>
+            </svg></span>
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="132" height="14" fill="none" viewBox="0 0 132 14"
+              style="transform: translate3d(0px, 0em, 0px);">
+              <path fill="#000"
+                d="M.861 1.844a.889.889 0 0 1 1.32-.777l9.282 5.156a.89.89 0 0 1 0 1.554l-9.281 5.156a.889.889 0 0 1-1.32-.777V1.844H.861Zm16 0a.888.888 0 0 1 1.32-.777l9.282 5.156a.89.89 0 0 1 0 1.554l-9.281 5.156a.889.889 0 0 1-1.32-.777l-.001-10.312Zm16 0a.888.888 0 0 1 1.32-.777l9.282 5.156a.89.89 0 0 1 0 1.554l-9.281 5.156a.889.889 0 0 1-1.32-.777l-.001-10.312ZM61.142 1.3c.736 0 1.387.144 1.952.432.565.277.997.677 1.296 1.2.31.512.464 1.115.464 1.808 0 .693-.155 1.301-.464 1.824a3.15 3.15 0 0 1-1.312 1.216c-.555.277-1.2.416-1.936.416H58.23V12.5h-1.392V1.3h4.304ZM58.23 6.916h2.784c.736 0 1.323-.197 1.76-.592.437-.395.656-.923.656-1.584s-.219-1.184-.656-1.568c-.427-.395-1.008-.592-1.744-.592h-2.8v4.336Zm8.108 5.584V1.3h1.392v9.92h5.104v1.28h-6.496Zm7.197 0 4.272-11.2h1.648l4.256 11.2h-1.488l-1.184-3.024h-4.88L74.975 12.5h-1.44Zm3.04-4.288h4.048L78.591 2.82l-2.016 5.392Zm5.694-6.928h1.632l3.296 5.568 3.344-5.568h1.568l-4.224 7.072V12.5h-1.392V8.356l-4.224-7.072Zm19.545.016c.736 0 1.386.144 1.952.432.547.26 1.004.679 1.312 1.2.309.512.464 1.115.464 1.808 0 .779-.219 1.456-.657 2.032-.426.565-1.002.95-1.727 1.152l2.512 4.576h-1.568l-2.32-4.304h-2.864V12.5h-1.393V1.3h4.289Zm-2.896 5.616h2.784c.736 0 1.322-.197 1.76-.592.437-.395.656-.923.656-1.584 0-.65-.219-1.173-.656-1.568-.438-.395-1.019-.592-1.744-.592h-2.8v4.336Zm8.389-5.616h7.136v1.28h-5.744v3.584h4.784v1.28h-4.784v3.776h5.952v1.28h-7.344V1.3Zm8.906 0h7.136v1.28h-5.744v3.584h4.784v1.28h-4.784v3.776h5.952v1.28h-7.344V1.3Zm8.906 11.2V1.3h1.392v9.92h5.104v1.28h-6.496Z">
+              </path>
+            </svg></span>
+        </div>
+      </div>
+      <div class="video-container">
+        
+        <a class="watch-button" href="https://www.youtube.com/" target="_blank"
+          rel="noopener noreferrer">
+          <img src="./assets/images/video_youtube_icon.png" alt="Video Preview" />
+        </a>
+        <video autoplay muted loop playsinline>
+          <source src="./assets/videos/4088191-hd_1920_1080_25fps.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="marquee-reverse marquee">
+        <div>
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="132" height="14" fill="none" viewBox="0 0 132 14"
+              style="transform: translate3d(0px, 0em, 0px);">
+              <path fill="#000"
+                d="M.861 1.844a.889.889 0 0 1 1.32-.777l9.282 5.156a.89.89 0 0 1 0 1.554l-9.281 5.156a.889.889 0 0 1-1.32-.777V1.844H.861Zm16 0a.888.888 0 0 1 1.32-.777l9.282 5.156a.89.89 0 0 1 0 1.554l-9.281 5.156a.889.889 0 0 1-1.32-.777l-.001-10.312Zm16 0a.888.888 0 0 1 1.32-.777l9.282 5.156a.89.89 0 0 1 0 1.554l-9.281 5.156a.889.889 0 0 1-1.32-.777l-.001-10.312ZM61.142 1.3c.736 0 1.387.144 1.952.432.565.277.997.677 1.296 1.2.31.512.464 1.115.464 1.808 0 .693-.155 1.301-.464 1.824a3.15 3.15 0 0 1-1.312 1.216c-.555.277-1.2.416-1.936.416H58.23V12.5h-1.392V1.3h4.304ZM58.23 6.916h2.784c.736 0 1.323-.197 1.76-.592.437-.395.656-.923.656-1.584s-.219-1.184-.656-1.568c-.427-.395-1.008-.592-1.744-.592h-2.8v4.336Zm8.108 5.584V1.3h1.392v9.92h5.104v1.28h-6.496Zm7.197 0 4.272-11.2h1.648l4.256 11.2h-1.488l-1.184-3.024h-4.88L74.975 12.5h-1.44Zm3.04-4.288h4.048L78.591 2.82l-2.016 5.392Zm5.694-6.928h1.632l3.296 5.568 3.344-5.568h1.568l-4.224 7.072V12.5h-1.392V8.356l-4.224-7.072Zm19.545.016c.736 0 1.386.144 1.952.432.547.26 1.004.679 1.312 1.2.309.512.464 1.115.464 1.808 0 .779-.219 1.456-.657 2.032-.426.565-1.002.95-1.727 1.152l2.512 4.576h-1.568l-2.32-4.304h-2.864V12.5h-1.393V1.3h4.289Zm-2.896 5.616h2.784c.736 0 1.322-.197 1.76-.592.437-.395.656-.923.656-1.584 0-.65-.219-1.173-.656-1.568-.438-.395-1.019-.592-1.744-.592h-2.8v4.336Zm8.389-5.616h7.136v1.28h-5.744v3.584h4.784v1.28h-4.784v3.776h5.952v1.28h-7.344V1.3Zm8.906 0h7.136v1.28h-5.744v3.584h4.784v1.28h-4.784v3.776h5.952v1.28h-7.344V1.3Zm8.906 11.2V1.3h1.392v9.92h5.104v1.28h-6.496Z">
+              </path>
+            </svg></span>
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="132" height="14" fill="none" viewBox="0 0 132 14"
+              style="transform: translate3d(0px, 0em, 0px);">
+              <path fill="#000"
+                d="M.861 1.844a.889.889 0 0 1 1.32-.777l9.282 5.156a.89.89 0 0 1 0 1.554l-9.281 5.156a.889.889 0 0 1-1.32-.777V1.844H.861Zm16 0a.888.888 0 0 1 1.32-.777l9.282 5.156a.89.89 0 0 1 0 1.554l-9.281 5.156a.889.889 0 0 1-1.32-.777l-.001-10.312Zm16 0a.888.888 0 0 1 1.32-.777l9.282 5.156a.89.89 0 0 1 0 1.554l-9.281 5.156a.889.889 0 0 1-1.32-.777l-.001-10.312ZM61.142 1.3c.736 0 1.387.144 1.952.432.565.277.997.677 1.296 1.2.31.512.464 1.115.464 1.808 0 .693-.155 1.301-.464 1.824a3.15 3.15 0 0 1-1.312 1.216c-.555.277-1.2.416-1.936.416H58.23V12.5h-1.392V1.3h4.304ZM58.23 6.916h2.784c.736 0 1.323-.197 1.76-.592.437-.395.656-.923.656-1.584s-.219-1.184-.656-1.568c-.427-.395-1.008-.592-1.744-.592h-2.8v4.336Zm8.108 5.584V1.3h1.392v9.92h5.104v1.28h-6.496Zm7.197 0 4.272-11.2h1.648l4.256 11.2h-1.488l-1.184-3.024h-4.88L74.975 12.5h-1.44Zm3.04-4.288h4.048L78.591 2.82l-2.016 5.392Zm5.694-6.928h1.632l3.296 5.568 3.344-5.568h1.568l-4.224 7.072V12.5h-1.392V8.356l-4.224-7.072Zm19.545.016c.736 0 1.386.144 1.952.432.547.26 1.004.679 1.312 1.2.309.512.464 1.115.464 1.808 0 .779-.219 1.456-.657 2.032-.426.565-1.002.95-1.727 1.152l2.512 4.576h-1.568l-2.32-4.304h-2.864V12.5h-1.393V1.3h4.289Zm-2.896 5.616h2.784c.736 0 1.322-.197 1.76-.592.437-.395.656-.923.656-1.584 0-.65-.219-1.173-.656-1.568-.438-.395-1.019-.592-1.744-.592h-2.8v4.336Zm8.389-5.616h7.136v1.28h-5.744v3.584h4.784v1.28h-4.784v3.776h5.952v1.28h-7.344V1.3Zm8.906 0h7.136v1.28h-5.744v3.584h4.784v1.28h-4.784v3.776h5.952v1.28h-7.344V1.3Zm8.906 11.2V1.3h1.392v9.92h5.104v1.28h-6.496Z">
+              </path>
+            </svg></span>
+        </div>
+      </div>
+    </main>
+    <section class="about-us">
+      <h2>About Us</h2>
+      <p>
+        Welcome to our creative platform! We are passionate about building smooth, responsive experiences
+        that feel natural and joyful. Our mission is to blend performance with beautiful design to create
+        unforgettable mobile-first interactions.
+      </p>
+      <div class="carousel">
+        <div class="carousel-track">
+          <div class="carousel-slide"><img
+              src="https://images.unsplash.com/photo-1524781289445-ddf8f5695861?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              alt="Image 1"></div>
+          <div class="carousel-slide"><img
+              src="https://images.unsplash.com/photo-1610194352361-4c81a6a8967e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80"
+              alt="Image 2"></div>
+          <div class="carousel-slide"><img
+              src="https://images.unsplash.com/photo-1516681100942-77d8e7f9dd97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              alt="Image 3"></div>
+          <div class="carousel-slide"><img
+              src="https://images.unsplash.com/photo-1613346945084-35cccc812dd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1759&q=80"
+              alt="Image 4"></div>
+        </div>
+      </div>
+    </section>
+    <!-- about, contact,location -->
+    <!-- gallery -->
+
+    <!-- glowin particles -->
+    <div class="glowing-container">
+      <div class="glowing">
+
+        <span style="--i:1;"></span>
+
+        <span style="--i:2;"></span>
+
+        <span style="--i:3;"></span>
+
+      </div>
+      <div class="glowing">
+
+        <span style="--i:1;"></span>
+
+        <span style="--i:2;"></span>
+
+        <span style="--i:3;"></span>
+
+      </div>
+      <div class="glowing">
+
+        <span style="--i:1;"></span>
+
+        <span style="--i:2;"></span>
+
+        <span style="--i:3;"></span>
+
+      </div>
+    </div>
+    <!-- whatsapp -->
+    <a href="https://wa.me/919444601634?text=I%20wish%20to%20know%20more%20about%20your%20programs%20😇"
+      class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+      <img src="./assets/images/whatsapp-line.svg" alt="WhatsApp" width="40" height="40">
+    </a>
+    <!-- gmap and contact  -->
+    <footer>
+      <div class="about-us">
+        <h2>Reach Us At</h2>
+      </div>
+      <iframe id="g-map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.9999999999995!2d77.12345678901234!3d28.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce123456789ab%3A0x123456789abcdef0!2sYour%20Location%20Name%20Here!5e0!3m2!1sen!2sin!4v1234567890123"
+        allowfullscreen="" loading="lazy" width:"100%"></iframe>
+      <section id="contact">
+        <div class="about-us">
+          <p>line1<br>line2 <br> City,Pincode</p>
+          <p><strong>Phone:</strong> (+91) 1234567890
+            <br><strong>Email:</strong> <a href="mailto:info@academy.com">info@academy.com</a>
+          </p>
+        </div>
+        <div class="footer__group" id="contact-us">
+          <ul class="footer__social">
+            <a href="tel:<%= process.env.PHONE %>" target="_blank" class="footer__social-link">
+              <img src="./assets/images/Phone_icon.png" alt="phone icon">
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+              <img src="./assets/images/facebook-icon.png" alt="facebook icon">
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" class="footer__social-link">
+              <img src="./assets/images/yt-icon.png" alt="youtube icon">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+              <img src="./assets/images/instagram.png" alt="instagram icon">
+            </a>
+          </ul>
+          </span>
+        </div>
+      </section>
+    </footer>
+  </div>
 </body>
+
 </html>
