@@ -248,7 +248,7 @@ body {
     text-align: center;
     width: 150px; /* fixed width */
     height: 50px; 
-    font-family: cursive;
+    /* font-family: cursive; */
     font-size: 15px;
     padding: 0.5rem 1rem;
     border: none;
