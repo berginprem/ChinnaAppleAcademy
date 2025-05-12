@@ -9,7 +9,7 @@ export const musicDance = {
     emoji: "🎹",
     img_src: "assets/images/keyboard.jpg",
     title: "Keyboard",
-    description: "Unlock the magic of music with our Keyboard & Piano classes, designed for all ages and skill levels..."
+    description: "Unlock the magic of music with our Keyboard & Piano classes, designed for all ages and skill levels. We train students for Trinity College London exams, ensuring a comprehensive learning experience that combines fun with structured education."
   },
   guitar: {
     emoji: "🎸",
@@ -39,7 +39,7 @@ export const musicDance = {
     emoji: "🎼",
     img_src: "assets/images/music_theory.jpg",
     title: "Music Theory",
-    description: "Understand the language of music—notation, harmony, rhythm..."
+    description: "Understand the language of music—notation, harmony, rhythm. We train students for Trinity College London exams, ensuring a solid foundation in music theory that complements practical skills."
   }
 };
 export const skillDev = {
@@ -124,12 +124,12 @@ export const home =
               </div>
             </div>
             <div class="video-container">
-            <a class="watch-button" href="https://www.youtube.com/" target="_blank"
+            <a class="watch-button" href="https://www.youtube.com/@chinnaapplegroup5405" target="_blank"
               rel="noopener noreferrer">
               <img src="./assets/images/video_youtube_icon.png" alt="Video Preview" />
             </a>
               <video autoplay muted loop playsinline >
-                <source src="./assets/videos/4088191-hd_1920_1080_25fps.mp4" type="video/mp4" >
+                <source src="./assets/videos/hd.mp4" type="video/mp4" >
                 Your browser does not support the video tag.
               </video>
             </div>
